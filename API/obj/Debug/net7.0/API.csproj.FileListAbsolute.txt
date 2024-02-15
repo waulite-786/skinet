@@ -90,3 +90,4 @@ D:\DotnetAndAngular\e-commerce\skinet\API\bin\Debug\net7.0\Microsoft.AspNetCore.
 D:\DotnetAndAngular\e-commerce\skinet\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 D:\DotnetAndAngular\e-commerce\skinet\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 D:\DotnetAndAngular\e-commerce\skinet\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\DotnetAndAngular\e-commerce\skinet\API\obj\Debug\net7.0\API.sourcelink.json

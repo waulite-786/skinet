@@ -16,6 +16,7 @@ export class ErrorInterceptor implements HttpInterceptor {
   constructor(private router:Router,private toaster:ToastrService) {}
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
+    console.log("majid interceptor called")
     return next.handle(request).pipe(
       catchError((error:HttpErrorResponse)=>{
          if(error){
@@ -25,7 +26,6 @@ export class ErrorInterceptor implements HttpInterceptor {
             }else{
               this.toaster.error(error.error.message, ''+error.status.toString())
             }
-
           }
           if(error.status === 401){
             this.toaster.error(error.error.message, error.status.toString())
@@ -38,6 +38,7 @@ export class ErrorInterceptor implements HttpInterceptor {
             this.router.navigateByUrl('/server-error',navigationExtras)
           }
          }
+
          return throwError(()=>new Error(error.message))
       })
     );

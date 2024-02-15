@@ -15,3 +15,4 @@ D:\DotnetAndAngular\e-commerce\skinet\Infrastructure\obj\Debug\net7.0\refint\Inf
 D:\DotnetAndAngular\e-commerce\skinet\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 D:\DotnetAndAngular\e-commerce\skinet\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
 D:\DotnetAndAngular\e-commerce\skinet\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\DotnetAndAngular\e-commerce\skinet\Infrastructure\obj\Debug\net7.0\Infrastructure.sourcelink.json

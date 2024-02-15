@@ -22,7 +22,7 @@ var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();
 
 //This middleware is used to if end point is not avilable
-app.UseStatusCodePagesWithRedirects("errors/{0}");
+app.UseStatusCodePagesWithRedirects("/errors/{0}");
 
 // Configure the HTTP request pipeline.
 app.UseSwaggerDocumentation();
